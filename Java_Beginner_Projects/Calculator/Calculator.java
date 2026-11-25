@@ -33,7 +33,7 @@ public class Calculator {// A simple calculator program.
         return a - b;
     }
 
-    // The multiplication method.
+    //Recent update on multiplication method.
     public static int Mul() {
         System.out.println("\n \tMultiplication...");
         System.out.println("Enter your first number: ");

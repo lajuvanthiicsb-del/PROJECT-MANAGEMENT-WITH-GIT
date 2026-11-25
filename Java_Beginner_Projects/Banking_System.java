@@ -53,11 +53,29 @@ public class Bankin_System {
         int next;
         
         do{//25th.
-
+            
         Banking_System h = new Banking_System();//An object for the class.
         h.Menu();//Calling te menu Menu.
         //A list of conditions to validate user inputs for menu options.
-            //Require code update
+            //code update changed on november 2026
+            if (h.input==1){
+            h.Add();
+        }
+        else if (h.input==2){
+            h.Sub();
+        }
+        else if (h.input==3){
+            h.Mul();
+        }
+        else if (h.input==4){
+            h.Div();
+        }
+        else if (h.input==5) {
+            h.exit();
+        }
+        else{//An else statement for error handling.
+            JOptionPane.showMessageDialog(null, "Your input was invalid for cuurent Application. Please try again.");
+        }
        
     
         //Global variable for program continuation.

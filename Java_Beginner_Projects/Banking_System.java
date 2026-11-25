@@ -52,29 +52,13 @@ public class Bankin_System {
     public static void main(String[] args) {
         int next;
         
-        do{//A do-while loop for program reusability.
+        do{//25th.
 
         Banking_System h = new Banking_System();//An object for the class.
         h.Menu();//Calling te menu Menu.
         //A list of conditions to validate user inputs for menu options.
-        if (h.input==1){
-            h.Add();
-        }
-        else if (h.input==2){
-            h.Sub();
-        }
-        else if (h.input==3){
-            h.Mul();
-        }
-        else if (h.input==4){
-            h.Div();
-        }
-        else if (h.input==5) {
-            h.exit();
-        }
-        else{//An else statement for error handling.
-            JOptionPane.showMessageDialog(null, "Your input was invalid. Please try again.");
-        }
+            //Require code update
+       
     
         //Global variable for program continuation.
         next = Integer.parseInt(JOptionPane.showInputDialog(null, "Do you want to continue: (1.Yes / 2.No)"));
